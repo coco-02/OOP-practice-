@@ -1,0 +1,55 @@
+/* tailwind.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+/* Header Styles */
+.header-container {
+  @apply bg-blue-600 py-4 px-6 text-white shadow-md;
+}
+
+.header-title {
+  @apply text-2xl font-bold;
+}
+
+.header-nav a {
+  @apply text-white hover:text-purple-300 mx-4;
+}
+
+/* Footer Styles */
+.footer-container {
+  @apply bg-gray-800 py-4 px-6 text-white text-center;
+}
+
+/* Form Styles */
+.form-container {
+  @apply bg-purple-700 p-8 rounded-lg shadow-lg max-w-md mx-auto;
+}
+
+.form-label {
+  @apply block text-white text-sm font-bold mb-2;
+}
+
+.form-input,
+.form-textarea {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4;
+  background-color: white; /* Ensure white background */
+}
+
+.form-button {
+  @apply bg-gold-500 hover:bg-gold-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline;
+}
+
+/* Responsive Design */
+@screen md {
+  .header-container {
+    @apply px-12;
+  }
+
+  .form-container {
+    @apply max-w-2xl;
+  }
+}
