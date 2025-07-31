@@ -4,3 +4,6 @@ f1statsubmit.php
 includes/f1.stats.inc.php
 classes/f1.classes.php
 classes/f1.contr.classes.php
+.vscode/
+profile.php
+.ddev/config.yaml
