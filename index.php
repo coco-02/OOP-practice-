@@ -38,3 +38,6 @@ else {
 }
 ?>
 <?php require_once "includes/footer.twig.php";?>
+
+<p>welcome
+</p>
